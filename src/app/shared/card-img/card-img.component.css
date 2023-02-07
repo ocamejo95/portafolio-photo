@@ -1,0 +1,23 @@
+img {
+  width: 100%;
+}
+
+.title {
+  font-size: 18px;
+  letter-spacing: inherit;
+  color: black;
+  margin-top: 15px;
+}
+
+.subtitle {
+  color: black;
+  font-size: 14px;
+}
+
+.card-img {
+  margin-top: 20px;
+}
+
+.animate__animated.animate__fadeIn {
+  /*--animate-duration: 0.5s;*/
+}
