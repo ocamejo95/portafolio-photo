@@ -1,5 +1,12 @@
 img {
   width: 100%;
+  transition-duration: .5s;
+  object-fit: cover;
+}
+
+:hover img {
+  transform: scale(1.1);
+  transition-duration: .5s;
 }
 
 .title {
@@ -16,8 +23,15 @@ img {
 
 .card-img {
   margin-top: 20px;
+  cursor: pointer;
 }
 
-.animate__animated.animate__fadeIn {
-  /*--animate-duration: 0.5s;*/
+.contenedor-img {
+  overflow: hidden;
+}
+
+:hover .contenedor-img {
+  -webkit-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
 }
