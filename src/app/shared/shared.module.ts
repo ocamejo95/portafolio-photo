@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardImgComponent } from './card-img/card-img.component';
+import {NgsRevealModule} from "ngx-scrollreveal";
 
 
 
@@ -12,7 +13,8 @@ import { CardImgComponent } from './card-img/card-img.component';
     CardImgComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgsRevealModule
   ]
 })
 export class SharedModule { }

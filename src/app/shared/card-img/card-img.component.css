@@ -26,11 +26,11 @@ img {
   cursor: pointer;
 }
 
-.contenedor-img {
+.foto-tarjeta {
   overflow: hidden;
 }
 
-:hover .contenedor-img {
+:hover .foto-tarjeta {
   -webkit-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
   box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);

@@ -1,5 +1,5 @@
-<div class="card-img animate__animated animate__fadeIn">
-  <div class="contenedor-img">
+<div [ngsInterval]="50" [ngsRevealSet]="{reset: true}" [ngsSelector]="'.tarjeta'" class="tarjeta">
+  <div class="foto-tarjeta">
     <img alt="" src="{{ listImg.link }}">
   </div>
   <h3 class="title">{{ listImg.title }}</h3>
