@@ -35,3 +35,7 @@ img {
   -moz-box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
   box-shadow: 0 0 11px 6px rgba(0, 0, 0, 0.07);
 }
+
+.tarjeta {
+  animation-duration: 1s;
+}

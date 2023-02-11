@@ -2,9 +2,39 @@
   padding: .8rem 1rem;
   width: 100%;
   box-shadow: 0 -9px 39px #00000085;
+  margin-bottom: 65px;
+  background-color: black !important;
 }
 
 img {
   width: 100px;
 }
 
+.ms-3 {
+  margin-left: 1.5rem !important;
+}
+
+svg {
+  fill: white;
+  transition: 0.3s;
+}
+
+.facebook :hover {
+  fill: #d4d4d8;
+  transition: 0.3s;
+}
+
+.instagram :hover {
+  fill: #d4d4d8;
+  transition: 0.3s;
+}
+
+.twitter :hover {
+  fill: #d4d4d8;
+  transition: 0.3s;
+}
+
+.pinterest :hover {
+  fill: #d4d4d8;
+  transition: 0.3s;
+}
